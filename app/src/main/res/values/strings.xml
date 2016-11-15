@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Application</string>
+    <string name="Email"><font size="10">Email Address</font></string>
+    <string name="Pass">Password</string>
+    <string name="Mobile">Mobile Number</string>
+    <string name="Signup">Sign up</string>
+    <string name="Signin">Sign in</string>
+    <string name="FName">First Name</string>
+    <string name="LName">Last Name</string>
+    <string name="Cpassword">Confirm Passwd</string>
+    <string name="Iagree">I agree to the Term of use </string>
+</resources>
