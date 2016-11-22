@@ -37,6 +37,7 @@
         android:background="@android:color/white"/>
 
     <EditText
+        android:id="@+id/Email1"
         android:drawableLeft="@mipmap/email1"
         android:hint="@string/Email"
         android:textColor="#000000"
@@ -52,6 +53,7 @@
         android:layout_height="35dp"
         android:background="@drawable/button"/>
     <EditText
+        android:id="@+id/Password1"
         android:drawableLeft="@mipmap/password"
         android:hint="@string/Pass"
         android:textColor="#000000"

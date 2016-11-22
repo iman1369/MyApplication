@@ -26,6 +26,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@mipmap/two"/>
+
         <TextView
             android:layout_marginLeft="25dp"
             android:layout_width="250dp"
@@ -34,6 +35,7 @@
             android:background="@android:color/white"/>
 
         <EditText
+            android:id="@+id/Firstname"
             android:drawableLeft="@mipmap/name"
             android:hint="@string/FName"
             android:textColor="#000000"
@@ -49,6 +51,7 @@
             android:background="@drawable/button"/>
 
         <EditText
+            android:id="@+id/Lastname"
             android:drawableLeft="@mipmap/name"
             android:hint="@string/LName"
             android:textColor="#000000"
@@ -64,11 +67,11 @@
             android:background="@drawable/button"/>
 
         <EditText
+            android:id="@+id/Email"
             android:drawableLeft="@mipmap/email1"
             android:hint="@string/Email"
             android:textColor="#000000"
             android:textSize="10dp"
-            android:inputType="textEmailAddress"
             android:drawablePadding="10dp"
             android:paddingLeft="10dp"
             android:textColorHint="#66000000"
@@ -80,6 +83,7 @@
             android:background="@drawable/button"/>
 
         <EditText
+            android:id="@+id/Password"
             android:drawableLeft="@mipmap/password"
             android:hint="@string/Pass"
             android:textColor="#000000"
@@ -96,11 +100,12 @@
             android:background="@drawable/button"/>
 
         <EditText
+            android:id="@+id/Age"
             android:drawableLeft="@mipmap/cpassword"
-            android:hint="@string/Cpassword"
+            android:hint="@string/age"
             android:textColor="#000000"
+            android:inputType="number"
             android:textSize="10dp"
-            android:inputType="textWebPassword"
             android:drawablePadding="10dp"
             android:paddingLeft="10dp"
             android:textColorHint="#66000000"
